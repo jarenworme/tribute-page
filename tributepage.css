@@ -1,0 +1,76 @@
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .pics {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px 10px;
+    }
+  
+  .picsindiv {
+    border-radius: 10px;
+  }
+  
+  h1, figcaption {
+    text-align: center;
+  }
+  
+  .dtitle {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 81);
+    margin-bottom: 8px;
+    border: 2px solid #111188;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  figcaption {
+    margin: 8px 0 -10 0;
+    font-family: Verdana;
+  }
+  
+  .descr {
+    font-size: 16;
+    text-align: center;
+  }
+  
+  .topfig {
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid #111188;
+    background-color: #00cc00;
+    padding: 1px;
+    justify-content: center;
+  }
+  
+  hr {
+    background-color: #00cc00;
+    border-color: #00cc00;
+    height: 2px;
+  }
+  
+  h2 {
+    margin-bottom: 0;
+    font-size: 30
+  }
+  
+  li {
+    font-family: Verdana;
+    margin: 25px;
+  }
+  
+  h3 {
+    text-align: center;
+  }
